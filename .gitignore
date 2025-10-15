@@ -1,0 +1,10 @@
+# Folders
+build/*
+
+# Files
+*.o
+*.a
+*.exe
+
+# Others
+!build/readme
