@@ -69,13 +69,13 @@ void ldaCink_AEC_CursorPrevLineNum(size_t _times)
 void ldaCink_AEC_CursorToFirstColumn(void)
 {
     printf("\033[1G");
-    return 0;
+    return;
 }
 void ldaCink_AEC_CursorToColumnNum(size_t _num)
 {
     if(_num == 0) return;
     printf("\033[%dG",_num);
-    return 0;
+    return;
 }
 void ldaCink_AEC_CursorToXY(size_t _x, size_t _y)
 {

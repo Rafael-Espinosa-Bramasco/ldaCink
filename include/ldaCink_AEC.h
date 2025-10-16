@@ -56,10 +56,10 @@ void ldaCink_AEC_FontSetNotItalic(void);
 void ldaCink_AEC_FontSetNotBlinking(void);
 void ldaCink_AEC_FontSetNotUnderlined(void);
 void ldaCink_AEC_FontSetNotCrossedOut(void);
-void ldaCink_AEC_ForegroundSetColor(void);
+void ldaCink_AEC_ForegroundSetColor(size_t _r, size_t _g, size_t _b);
 void ldaCink_AEC_ForegroundSetColorNumber(size_t _num); //30 37
 void ldaCink_AEC_ForegroundSetDefaultColor(void);
-void ldaCink_AEC_BackgroundSetColor(void);
+void ldaCink_AEC_BackgroundSetColor(size_t _r, size_t _g, size_t _b);
 void ldaCink_AEC_BackgroundSetColorNum(size_t _num); // 40 47
 void ldaCink_AEC_BackgroundSetDefaultColor(void);
 
